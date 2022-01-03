@@ -10,6 +10,7 @@ import SignIn from './views/forms/SignIn';
 import SignUp from './views/forms/SignUp';
 import AuthSignUp from './views/forms/AuthSignUp';
 import AccountLayout from './layouts/AccountLayout';
+import Auth from './firebase/auth';
 
 const Routers = (props) => {
     return (
@@ -48,6 +49,9 @@ const Routers = (props) => {
                                 </Route>
                                 <Route exact path="/account/info">
                                     <Info />
+                                </Route>
+                                <Route exact path="/auth">
+                                    <Auth />
                                 </Route>
                                 <Route path="*">
                                     <div className="tw-container text-center py-20">
