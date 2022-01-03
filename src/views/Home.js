@@ -73,13 +73,9 @@ export default function ViewPage() {
                                     <th class="bg-base-100 border-r">Tổ chức phát hành</th>
                                     <th class="bg-base-100 border-r">Loại quỹ</th>
                                     <th class="bg-base-100 border-r">Giá gần nhất (VND)</th>
-                                    <th>
-                                        <th></th>
                                         <th class="bg-base-100 text-center">Tên CCQ</th>
                                         <th class="bg-base-100 text-center">Tên CCQ</th>
                                         <th class="bg-base-100 text-center">Tên CCQ</th>
-                                    </th>
-
 
                                 </tr>
                             </thead>
